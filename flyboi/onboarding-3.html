@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta content="initial-scale=1, shrink-to-fit=no, width=device-width" name="viewport">
+    <title>Flyboi - Sign up</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <main>
+      <nav class="navbar navbar-dark py-3">
+        <div class="container justify-content-between align-items-center">
+            <img src="img/logo_text.svg" style="max-height: 18px;" alt="Logo">
+            <img src="img/logo_icon.svg" style="max-height: 25px;" alt="Logo">
+            <a href="#" class="text-white helper-text">Login ›</a>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-4">
+            <p class="text-medium border-bottom pb-2">Signup steps</p>
+            <div class="stepper-vert">
+                <div class="stepper done">
+                  <div class="stepper-icon">
+                    <span>1</span>
+                  </div>
+                  <p class="stepper-text mb-0">
+                    <span class="done text-medium">Personal information</span><br>
+                    We'd like to know few details about you
+                  </p>
+                </div>
+                <div class="stepper done">
+                  <div class="stepper-icon">
+                    <span>2</span>
+                  </div>
+                  <p class="stepper-text mb-0">
+                    <span class="done text-medium">Choose additional security features</span><br>
+                    Pick as many as you like
+                  </p>
+                </div>
+                <div class="stepper active">
+                  <div class="stepper-icon">
+                    <span>3</span>
+                  </div>
+                  <p class="stepper-text mb-0">
+                    <span class="text-medium">Payment selection</span><br>
+                    Choose preferred payment method
+                  </p>
+                </div>
+                <div class="stepper">
+                  <div class="stepper-icon">
+                    <span>4</span>
+                  </div>
+                  <p class="stepper-text mb-0">
+                    <span class="text-medium">Confirmation</span><br>
+                    Welcome on board!
+                  </p>
+                </div>
+              </div>
+          </div>
+          <div class="col-lg-7 mt-4 mt-lg-0">
+            <p class="text-medium border-bottom pb-2">Select payment method</p>
+            <p class="text-medium pt-3 mb-2">Security in payments</p>
+            <p class="text-muted helper-text">We maintain the highest level of online payment security with complete encryption and data security solutions to protect customer data.</p>
+            <p class="text-muted helper-text">To ensure the highest security of your payments and transactions, sensitive information are effectively tokenized. We also have some of the most effective fraud prevention methods, so that your transaction can be processed without unwelcome interference.</p>
+            <form>
+              <div class="row mt-4">
+                <div class="col-lg-12">
+                  <div class="border rounded p-4">
+                    <div class="row">
+                      <div class="col-6 d-flex align-items-center">
+                        <div class="form-group mb-0">
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                            <label class="form-check-label mt-1" for="exampleRadios1">
+                              Credit card
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-6 d-flex align-items-center justify-content-end">
+                        <img src="img/cards.svg" style="max-height: 20px;" alt="Credit cards">
+                      </div>
+                      <div class="col-lg-8 d-flex align-items-center justify-content-end">
+                        <p class="helper-text mt-3">We accept all major credit cards: Visa, Mastercard, American Express and the Discover Card</p>
+                      </div>
+                      <div class="col-lg-12">
+                      <form>
+                        <div class="form-row">
+                          <div class="col-lg-8">
+                            <div class="form-group">
+                              <label for="cnum">Card number</label>
+                              <input type="text" class="form-control" id="cnum">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="form-row">
+                          <div class="col-lg-3 col-6">
+                            <div class="form-group">
+                              <label for="exp">Expiration</label>
+                              <select class="custom-select" id="exp">
+                                <option value="1" selected>01</option>
+                                <option value="2">02</option>
+                                <option value="3">03</option>
+                                <option value="4">04</option>
+                                <option value="5">05</option>
+                              </select>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-6">
+                            <div class="form-group">
+                              <label for="exp2">&nbsp;</label>
+                              <select class="custom-select" id="exp2">
+                                <option value="0" selected>2018</option>
+                                <option value="1">2019</option>
+                                <option value="2">2020</option>
+                                <option value="3">2021</option>
+                                <option value="4">2022</option>
+                                <option value="5">2023</option>
+                              </select>
+                            </div>
+                          </div>
+                          <div class="col-lg-2">
+                            <div class="form-group">
+                              <label for="cvv">CVV</label>
+                              <input type="text" class="form-control" id="cvv">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row my-4">
+                <div class="col-lg-12">
+                  <div class="border rounded p-4">
+                    <div class="row">
+                      <div class="col-6 d-flex align-items-center">
+                        <div class="form-group mb-0">
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                            <label class="form-check-label mt-1" for="exampleRadios2">
+                              PayPal
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-6 d-flex align-items-center justify-content-end">
+                        <img src="img/paypal.svg" style="max-height: 20px;" alt="Credit cards">
+                      </div>
+                      <div class="col-lg-8 d-flex align-items-center justify-content-end">
+                        <p class="helper-text mt-3">You will be redirected to PayPal website to complete your payment securely</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <a href="onboarding-2.html" class="btn btn-link btn-link-dark helper-text"><span class="fas fa-long-arrow-alt-left"></span> Previous step</a>
+                <a href="onboarding-4.html" class="btn btn-primary">Pay $142 ›</a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col-lg-1 col-5 text-lg-center mb-1">
+          <a href="#">About us</a>
+        </div>
+        <div class="col-lg-1 col-5 text-lg-center mb-1">
+          <a href="#">Press</a>
+        </div>
+        <div class="col-lg-1 col-5 text-lg-center mb-1">
+          <a href="#">Careers</a>
+        </div>
+        <div class="col-lg-1 col-5 text-lg-center mb-1">
+          <a href="#">Reviews</a>
+        </div>
+        <div class="col-lg-1 col-5 text-lg-center mb-1">
+          <a href="#">Policies</a>
+        </div>
+        <div class="col-lg-1 col-5 text-lg-center mb-1">
+          <a href="#">Contact</a>
+        </div>
+        <div class="col-lg-1 col-5 text-lg-center mb-1">
+          <a href="#">Faq</a>
+        </div>
+        <div class="col-lg-1 col-5 text-lg-center mb-1">
+          <a href="#">Blog</a>
+        </div>
+        <div class="w-100"></div>
+        <div class="col-lg-8 text-center pt-2">
+          <hr>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-8 pt-2">
+          <div class="row justify-content-between">
+            <div class="col-lg-4 col-6 d-flex justify-content-start align-items-center">
+              <img src="img/logo_dark.svg" style="max-height: 30px;" alt="Logo">
+            </div>
+            <div class="col-lg-4 col-6 d-flex justify-content-lg-center justify-content-end align-items-center">
+              <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                <div class="btn-group" role="group" aria-label="First group">
+                  <a href="#" class="mr-4"><i class="fab fa-twitter fa-2x"></i></a>
+                  <a href="#" class="mr-4"><i class="fab fa-facebook fa-2x"></i></a>
+                  <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 mt-3 mt-lg-0 d-flex justify-content-lg-end justify-content-center">
+              <small>&copy; Copyright Twindeo 2018</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

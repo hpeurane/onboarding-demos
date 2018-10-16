@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="630px" height="102px" viewBox="0 0 630 102" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Group@0,25x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#68BEE9" offset="0%"></stop>
+            <stop stop-color="#0B70BA" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-2" points="38.99988 0 0 0 0 47.99976 38.99988 47.99976 38.99988 8.52651283e-15"></polygon>
+        <polygon id="path-4" points="39.59988 0 0.59988 0 0.59988 47.99976 39.59988 47.99976 39.59988 8.52651283e-15"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Cards" transform="translate(-405.000000, -370.000000)">
+            <g id="Group" transform="translate(405.000000, 371.000000)">
+                <g id="Amex---full" transform="translate(480.000000, 0.000000)" fill="url(#linearGradient-1)">
+                    <rect id="Rectangle-Copy-2" x="0" y="0" width="150" height="100" rx="8"></rect>
+                </g>
+                <g id="Master-Card---full" transform="translate(240.000000, 0.000000)">
+                    <rect id="Rectangle-Copy" stroke="#F1F1F1" stroke-width="2" fill="#FFFFFF" x="0" y="0" width="150" height="100" rx="8"></rect>
+                    <g id="Page-1" transform="translate(36.000000, 26.000000)">
+                        <g id="Group-3">
+                            <mask id="mask-3" fill="white">
+                                <use xlink:href="#path-2"></use>
+                            </mask>
+                            <g id="Clip-2"></g>
+                            <path d="M29.99988,23.99976 C29.99988,16.42536 33.51828,9.67896 38.99988,5.28096 C34.88988,1.98336 29.67948,-0.00024 23.99988,-0.00024 C10.74588,-0.00024 -0.00012,10.74456 -0.00012,23.99976 C-0.00012,37.25496 10.74588,47.99976 23.99988,47.99976 C29.67948,47.99976 34.88988,46.01736 38.99988,42.71856 C33.51828,38.32056 29.99988,31.57416 29.99988,23.99976" id="Fill-1" fill="#EA001B" mask="url(#mask-3)"></path>
+                        </g>
+                        <g id="Group-6" transform="translate(38.400000, 0.000000)">
+                            <mask id="mask-5" fill="white">
+                                <use xlink:href="#path-4"></use>
+                            </mask>
+                            <g id="Clip-5"></g>
+                            <path d="M15.59988,-0.00024 C9.92028,-0.00024 4.70988,1.98336 0.59988,5.28096 C6.08148,9.67896 9.59988,16.42536 9.59988,23.99976 C9.59988,31.57416 6.08148,38.32056 0.59988,42.71856 C4.70988,46.01736 9.92028,47.99976 15.59988,47.99976 C28.85508,47.99976 39.59988,37.25496 39.59988,23.99976 C39.59988,10.74456 28.85508,-0.00024 15.59988,-0.00024" id="Fill-4" fill="#F79F1A" mask="url(#mask-5)"></path>
+                        </g>
+                        <path d="M47.99988,23.99976 C47.99988,16.42536 44.48148,9.67896 38.99988,5.28096 C33.51828,9.67896 29.99988,16.42536 29.99988,23.99976 C29.99988,31.57416 33.51828,38.32056 38.99988,42.71856 C44.48148,38.32056 47.99988,31.57416 47.99988,23.99976" id="Fill-7" fill="#FF5F01"></path>
+                    </g>
+                </g>
+                <g id="Visa-full">
+                    <rect id="Rectangle" stroke="#F1F1F1" stroke-width="2" fill="#FFFFFF" x="1" y="1" width="148" height="98" rx="8"></rect>
+                    <path d="M0,7.99609797 C0,3.579975 3.57827787,0 7.99838737,0 L142.001613,0 C146.419,0 150,3.58189046 150,7.99609797 L150,25 L0,25 L0,7.99609797 Z" id="Rectangle-2" fill="#004E8C"></path>
+                    <path d="M0,75 L150,75 L150,92.003902 C150,96.420025 146.421722,100 142.001613,100 L7.99838737,100 C3.581,100 0,96.4181095 0,92.003902 L0,75 Z" id="Rectangle-2-Copy" fill="#FFA336"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
